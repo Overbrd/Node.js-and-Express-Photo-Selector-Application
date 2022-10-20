@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p Built Using Node.js v12.16.1, Express v4.14.0, and Pug v2.0.0-beta6
+  script.
+    var f1 = function() { document.getElementById('myImage').src='#{data.item1}' }
+  script.
+    var f2 = function() { document.getElementById('myImage').src='#{data.item2}' }
+  script.
+    var f3 = function() { document.getElementById('myImage').src='#{data.item3}' }
+  script.
+    var f4 = function() { document.getElementById('myImage').src='#{data.item4}' }
+
+  button(onclick='f1()') Bloom
+  button(onclick='f2()') Flower
+  button(onclick='f3()') Cactus
+  p
+  a: img(id='myImage' height='300' width='300' src='images/default.jpg')
+
+  p Developer: Matthew C. Lind
+  p Date: 10/20/2022
