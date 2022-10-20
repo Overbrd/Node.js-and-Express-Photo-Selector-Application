@@ -1,4 +1,5 @@
 # Node.js and Express Photo Selector Application
+![readme](https://user-images.githubusercontent.com/10948817/196969528-a836ee06-e72b-4c85-8633-b571a7283c21.jpg)
 
 Technology Used: Node.js and Express
 
